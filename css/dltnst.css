@@ -55,7 +55,17 @@ div.skocica>a {
 
 
 @media screen and (max-width: 650px) {
+  
+  #dltnst {
+    padding: 0;
+  }
+
   .transbox2 {
     width: 80%;
+  }
+
+  div.skocica {
+    bottom: 5%;
+    right: 5%;
   }
 }
