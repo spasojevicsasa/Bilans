@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #797979; 
+}
+
+#dltnst {
+  background: url("../slike/slika2.jpg");
+  background-size: cover;
+  padding: 10%;
+}
+
+.transbox2 {
+  width: 50%;
+  margin: auto;
+  background-color: hsla(0,0%,100%,0.40);
+  padding: 3%;
+}
