@@ -10,75 +10,73 @@ header {
   width: 100%;
   height: 50em;
   background: url("../slike/prava.jpg");
-
+ 
   background-size: cover;
   padding: 2em 20%; 
 
 }
 
 div.transbox {
- background-color: hsla(0,0%,100%,0.30);
+   background-color: hsla(0,0%,100%,0.30);
 }
 
 header .mainNavigation {
-  width: 100%;
-  height: 3.8em;
-  background: #fff;
-  padding: .5em 1em; 
-}
+    width: 100%;
+    height: 3.8em;
+    background: #fff;
+    padding: .5em 1em; 
+  }
 
 header .mainNavigation .logo {
-  display: inline-block;
-  width: 20%;
-  font-weight: bold;
-  font-size: 2em; 
-}
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+    font-size: 2em; 
+  }
 
 header .mainNavigation ul {
-  display: inline-block;
-  width: 79%;
-  text-align: right;
-  list-style: none;
-  text-transform: uppercase;
-}
+    display: inline-block;
+    width: 79%;
+    text-align: right;
+    list-style: none;
+    text-transform: uppercase;
+    }
 
 
 header .mainNavigation ul li {
-  display: inline-block;
-  margin-left: 1em; 
-}
-
+    display: inline-block;
+    margin-left: 1em; 
+    }
+    
 header .mainNavigation ul li a {
-  text-decoration: none; 
-}
+    text-decoration: none; 
+    }
 
 
 header .mainNavigation ul li a:hover {
-  color: #ff3720; 
-}    
+    color: #ff3720; 
+    }    
 
 header h1 {
-  display: block;
-  margin: 22% auto 0;
-  width: 55%;
-  color: #0e1f52;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 3em;
-  border-bottom: 1px solid #ff3720;
-}
+    display: block;
+    margin: 22% auto 0;
+    width: 55%;
+    color: #0e1f52;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 1px solid #ff3720;
+    }
 
-header h2 {
-  color: #0e1f52;
-  font-weight: bold;
-  text-align: center; 
-}
+  header h2 {
+    color: #0e1f52;
+    font-weight: bold;
+    text-align: center; 
+  }
 
 #dltnst {
   background: url("../slike/slika2.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 10%;
 }
 
@@ -116,7 +114,7 @@ section .column img {
   display: block;
   margin: 0 auto;
   width: 80%; 
-}
+  }
 
 section .column h2 {
   font-weight: normal;
@@ -143,7 +141,7 @@ section .column h2 {
 }
 
 .button:hover {
-  background: #000; 
+    background: #000; 
 }
 
 
@@ -187,35 +185,35 @@ footer iframe {
 .tekst {
   white-space: normal;
   text-indent: 3%;
-}
+ }
 
-.formular {
-  background: #f0f0f0;
-  margin: 5% auto;
-  width: 100%;
+ .formular {
+    background: #f0f0f0;
+    margin: 5% auto;
+    width: 100%;
 }
 
 input[type=text], input[type=email], textarea {
-  margin: 3%;
-  padding: 10px;
-  width: 90%;
-  box-sizing:border-box;
-  resize: none;
+    margin: 3%;
+    padding: 10px;
+    width: 90%;
+    box-sizing:border-box;
+    resize: none;
 }
 
 
 input[type=submit] {
-  background-color:  #ff3720;
-  border: none;
-  color: white;
-  padding: 2%;
-  text-decoration: none;
-  margin-left: 45%;
-  margin-bottom: 2%;
-  cursor: pointer;
-  width: 10%;
-  font-weight: bold;
-  border-radius: 4px;
+    background-color:  #ff3720;
+    border: none;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+    margin-left: 45%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    width: 10%;
+    font-weight: bold;
+    border-radius: 4px;
 }
 
 form>p {
@@ -226,31 +224,31 @@ form>p {
 }
 
 div.skocica {
-  width: 80px;
-  height: 80px;
-  border: none;
-  background-color: #00cbff;
-  text-align: center;
-  border-radius: 50%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  position: fixed;
-  bottom:10%;
-  right: 10%;
-  opacity: 0.5;
-}
+      width: 80px;
+      height: 80px;
+      border: none;
+      background-color: #00cbff;
+      text-align: center;
+      border-radius: 50%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      position: fixed;
+      bottom:10%;
+      right: 10%;
+      opacity: 0.5;
+    }
 
 div.skocica>a {
-  display: block;
-  text-decoration: none;
-  position: absolute;
-  top:30%;
-  left:15%;
-  font-weight: bold;
-  font-size: 1.2em;
+      display: block;
+      text-decoration: none;
+      position: absolute;
+      top:30%;
+      left:15%;
+      font-weight: bold;
+      font-size: 1.2em;
 
-}
+    }
 
 #poruka {
   color: red;
@@ -261,8 +259,8 @@ div.skocica>a {
 @media screen and (max-width: 1250px) {
   header {
     padding: 2em 10%;
-  } 
-}
+     } 
+   }
 
 @media screen and (max-width: 950px) {
   header {
@@ -295,7 +293,7 @@ div.skocica>a {
   section .column {
     width: 49%;
     margin-bottom: 5em;
-  }
+    }
 
   footer {
     text-align: center; 
@@ -303,8 +301,8 @@ div.skocica>a {
 
   footer .info, footer iframe {
     width: 100%; 
-  } 
-}
+    } 
+  }
 
 @media screen and (max-width: 650px) {
   header {
@@ -312,15 +310,15 @@ div.skocica>a {
     height: auto; 
   }
 
-  header .mainNavigation {
+header .mainNavigation {
     height: auto; 
   }
 
-  header .mainNavigation ul {
+header .mainNavigation ul {
     width: 100%; 
   }
 
-  header .mainNavigation ul li {
+header .mainNavigation ul li {
     width: 100%;
     text-align: center;
     padding: 1em; 
@@ -343,28 +341,14 @@ div.skocica>a {
     display: block; 
   }
 
-  input[type=submit] {
-    margin: 3%;
-    font-weight: normal;
-    padding: none;
-    width: 90%;
-    padding: 1.5em;
-  }
+ input[type=submit] {
+        margin: 3%;
+        font-weight: normal;
+        padding: none;
+        width: 90%;
+        padding: 1.5em;
+    }
 
-  #dltnst {
-    margin: 0 auto;
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
- }   
+   }
 
- .transbox2{
-    width: 70%;
-}
-
-}
-
-
+/*# sourceMappingURL=style.css.map */
