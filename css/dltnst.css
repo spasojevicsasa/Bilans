@@ -18,3 +18,31 @@
   background-color: hsla(0,0%,100%,0.40);
   padding: 3%;
 }
+
+div.skocica {
+      width: 80px;
+      height: 80px;
+      border: none;
+      background-color: #00cbff;
+      border-radius: 50%;
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      bottom:10%;
+      right: 10%;
+      opacity: 0.7;
+      display: flex;
+      justify-content: center;
+    }
+
+    div.skocica>a {
+      display: flex;
+      text-decoration: none;
+      /*position: absolute;*/
+      justify-content: center;
+      align-items: center;
+      color: #000;
+      font-weight: bold;
+      font-size: 1.2em;
+
+    }
