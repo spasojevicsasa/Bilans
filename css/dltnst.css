@@ -8,7 +8,10 @@
 
 #dltnst {
   background: url("../slike/slika2.jpg");
-  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
   padding: 10%;
 }
 
@@ -20,28 +23,33 @@
 }
 
 div.skocica {
-      width: 80px;
-      height: 80px;
-      border: none;
-      background-color: #00cbff;
-      border-radius: 50%;
-      margin: 0;
-      padding: 0;
-      position: fixed;
-      bottom:10%;
-      right: 10%;
-      opacity: 0.5;
-      display: flex;
-      justify-content: center;
-    }
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: #00cbff;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom:10%;
+  right: 10%;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+}
 
-    div.skocica>a {
-      display: flex;
-      text-decoration: none;
-      justify-content: center;
-      align-items: center;
-      color: #000;
-      font-weight: bold;
-      font-size: 1.2em;
+div.skocica>a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2em;
 
-    }
+}
+
+@media screen and (max-width: 650px ) {
+  background-repeat:no-repeat;
+  background-position:center;
+}
