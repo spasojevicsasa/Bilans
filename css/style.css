@@ -77,6 +77,8 @@ header h1 {
 #dltnst {
   background: url("../slike/slika2.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 10%;
 }
 
