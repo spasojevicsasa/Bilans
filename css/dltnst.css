@@ -52,3 +52,10 @@ div.skocica>a {
   font-size: 1.2em;
 
 }
+
+
+@media screen and (max-width: 650px) {
+  .transbox2 {
+    width: 80%;
+  }
+}
