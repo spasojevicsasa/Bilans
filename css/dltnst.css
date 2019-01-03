@@ -12,6 +12,10 @@
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
   padding: 10%;
 }
 
@@ -47,9 +51,4 @@ div.skocica>a {
   font-weight: bold;
   font-size: 1.2em;
 
-}
-
-@media screen and (max-width: 650px ) {
-  background-repeat:no-repeat;
-  background-position:center;
 }
