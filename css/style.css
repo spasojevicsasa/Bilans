@@ -91,6 +91,10 @@ header h1 {
   color: #ff3720; 
 }
 
+.blackText {
+  color: #fff;
+}
+
 section {
   width: 100%;
   padding: 7em 15%;
